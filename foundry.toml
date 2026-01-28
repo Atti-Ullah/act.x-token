@@ -1,0 +1,19 @@
+
+# Source directory for contracts
+src = "src"
+
+# Output directory for build artifacts
+out = "out"
+
+# Libraries directory (OpenZeppelin, forge-std, etc.)
+libs = ["lib"]
+
+# Solidity compiler version
+solc_version = "0.8.22"
+
+# Enable optimizer
+optimizer = true
+optimizer_runs = 200
+
+# Test configuration
+verbosity = 2
